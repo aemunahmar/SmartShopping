@@ -1,0 +1,357 @@
+/*Homepage*/
+/*Html*/
+html{
+    zoom: 83%;
+}
+
+/*Body*/
+body{
+    background-color: white;
+    font-family: serif;
+}
+
+/*Header*/
+#main-title{
+    text-align:center;
+    font-family: serif;
+    font-style: italic;
+    font-size:40px;
+    color: brown;
+}
+
+/*Search Bar*/
+#search{
+    float:right;
+    padding:5px 65px 5px 10px;
+    border-color:brown;
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+/*input, label {
+    margin: .4rem 0;
+}*/
+.note {
+    font-size: .8em;
+}
+.pull-right {
+    float: right;
+}
+
+/*Favorites*/
+.favorites{
+    float:right;
+}
+.favorites li{
+    display: inline-block;
+    font-size: 17px;
+    position: relative;
+    bottom: 95px;
+    left:150px;
+}
+.favorites a{
+    color:gray;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+.favorites #current-page a{
+    color: black;
+    font-weight: bold;
+}
+.favorites a:hover{
+    color:black;
+}
+
+/*Top Navigation Bar*/
+.nav-bar{
+    text-align:center;
+}
+.nav-bar ul{
+    background-color: #F2F3F4;
+}
+.nav-bar li{
+    display:inline-block;
+    padding: 10px 38px 10px 38px;
+    font-size: 20px;
+    position: relative;
+    left: 120px;
+}
+.nav-bar a{
+    color: brown;
+    text-decoration: none;
+    font-family: serif;
+}
+.nav-bar #current-page a{
+    color: black;
+    font-weight: bold;
+}
+.nav-bar a:hover{
+    color: black;
+}
+
+/*Footer*/
+footer{
+    color: brown;
+    text-align: center;
+    position: relative;
+    left: 80px;
+}
+
+/*Home Page*/
+/*Center Top of Page*/
+.center-top{
+    position: relative;
+    bottom:21px;
+}
+#center-top{
+    color:white;
+    text-align:center;
+    font-size: 40px;
+    position: relative;
+    bottom: 480px;
+    padding:5px 0px 5px 0px;
+}
+#middle-slogan{
+    font-style: italic;
+}
+
+/*Center Bottom of Page*/
+.center-bottom{
+    text-align: center;
+    background-color:floralwhite;
+    padding: 1px 0px 60px 0px;
+    position: relative;
+    top: 3px;
+}
+#bottom-title{
+    color:brown;
+    font-size: 40px;
+    position: relative;
+    left: 77px;
+}
+#about{
+    color:brown;
+    font-style:italic;
+    font-size:22px;
+    position: relative;
+    left: 87px;
+}
+#img1{
+    float: left; 
+}
+#img2{
+    float: right;
+}
+
+/*Button*/
+#button{
+    background-color: black;
+    font-size: 25px;
+    font-family: inherit;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 77px;
+    top: 20px;
+}
+
+/*Brands Page*/
+#page_title{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    background-color:rosybrown;
+    padding: 30px 0px 30px 0px;
+    font-family: 'Nunito', sans-serif;
+}
+.brands_title li{
+    display: inline-block;
+    margin-top: 20px;
+}
+.brands_title a{
+    text-decoration: none;
+    border-bottom: 3px solid;
+    position: relative;
+    left: 50px;
+    color: brown;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+.brands_title a:hover{
+    color: black;
+}
+#featured_products .products{
+    float:left;
+    padding: 10px 35px 70px 35px;
+    position: relative;
+    left: 60px;
+    color: black;
+}
+#featured_products .products img{
+    width: 200px;
+    height: 300px;
+}
+
+/*Products Navigation Header*/
+#products_header{
+    text-align: center;
+    background-color: rosybrown;
+    color:white;
+    padding: 2px;
+    position: relative;
+    bottom:15px;
+    font-family: 'Nunito', sans-serif;
+}
+.product_title{
+    font-size: 30px;
+}
+.products_nav li{
+    display:inline-block;
+    padding: 12px 105px 12px 105px;
+    margin: 0px 10px 0px 10px;
+    font-size: 20px;
+    border-style: solid;
+    background-color: black;
+}
+.products_nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.products_nav #products_current a{
+    font-style: italic;
+}
+
+/*Product Pages*/
+ul.products-container li {
+    display: inline-block;
+    border: 1px solid #ECECEC;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    background: #fff;
+}
+ul.products-container {
+    padding: 0px;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 85px;
+    margin-right: auto;
+    color: #777;
+    list-style: none;
+}
+.product-card{
+    width: 220px;
+    height: 420px;
+    padding: 30px 50px 125px 30px;
+    position: relative;
+    float:  left;
+    display: inline-block;
+}
+#brandName{
+    width: 235px;
+    height: 335px;
+}
+.product-card a{
+    color: black;
+    text-decoration: none;
+}
+.product-card_details{
+    padding-top: 10px; 
+    font-size: 15px;
+    word-wrap: break-word;
+}
+.product-card_name{
+    font-weight: bold;
+}
+.product-card_summary{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 170px;
+    height: auto;
+}
+.btn{
+    height:30px !important; 
+    width:30px !important; 
+    background-color:transparent !important; 
+    float:right !important; 
+    border:none !important; 
+    background-image:url(ProjectMockup3.png) !important; 
+    background-size: contain !important; 
+    cursor:pointer !important;
+}
+
+.btn-active{
+    height:30px !important; 
+    width:30px !important; 
+    background-color:transparent !important; 
+    float:right !important; 
+    border:none !important; 
+    background-image:url(ProjectMockup4.png) !important; 
+    background-size: contain !important; 
+    cursor:pointer !important;
+}
+/*Reviews Page*/
+#all-reviews{
+    width: auto;
+    height: auto;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.reviews-card{
+    border-color: gray;
+    border-bottom: 3px solid;
+    margin-bottom: 30px;
+}
+
+.reviews-card_details{
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    color: saddlebrown;
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+.reviews-card_name{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+/*Favorites Page*/
+#favorite_brand{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    background-color:rosybrown;
+    padding: 30px 0px 30px 0px;
+}
+#total{
+    font-size: 20px;
+}
+#delete_cart{
+    font-size: 20px;
+    padding: 12px 12px 12px 12px;
+    margin: 0px 10px 0px 10px;
+    font-size: 20px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 768px){
+    .pull-title{
+        float: none;
+    }
+    header nav, header nav ul li{
+        float: none;
+        text-align: center;
+        width: 50%;
+    }
+}
